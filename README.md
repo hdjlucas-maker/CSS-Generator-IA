@@ -26,3 +26,5 @@ O projeto foi criado para demonstrar como a IA pode ser usada como uma ferrament
 
 Autor
 Projeto desenvolvido por Lucas Correa, com foco em inovação e acessibilidade no uso de inteligência artificial aplicada ao front-end.
+
+https://hdjlucas-maker.github.io/CSS-Generator-IA/

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #09090b;
+    color: #e4e4e7;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+span {
+    color: #22c552;
+    font-weight: bold;
+}
+
+p {
+    color: darkgrey;
+    margin: 10px;
+}
+
+textarea {
+    resize: none;
+    max-width: 800px;
+    width: 100%;
+    padding: 16px;
+    border: 3px solid #27272a;
+    border-radius: 8px;
+    background: #141419;
+    color: #e4e4e7;
+    outline: none;
+    margin: 20px;
+}
+
+button {
+    max-width: 640px;
+    width: 100%;
+    background: #22c552;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #16a34a;
+    transform: scale(1.02);
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.codigo, .preview {
+    flex: 1;
+    background: #141419;
+    border: 2px solid #27272a;
+    border-radius: 8px;
+    padding: 16px;
+    color: #e4e4e7;
+    overflow: auto;
+}
+
+.caixaresposta {
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 14px;
+}
